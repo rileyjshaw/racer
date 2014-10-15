@@ -53,7 +53,7 @@
     if (map.get(this.x, this.y + dy) <= 0) this.y += dy;
     if (!this.hasWon && this.x >= map.size - 2 && this.y >= map.size - 2) {
       alert('Joy! You win with a time of ' + gameTime + ' seconds!');
-      this.hasWon === true;
+      this.hasWon = true;
       location.reload();
     }
     this.paces += distance;

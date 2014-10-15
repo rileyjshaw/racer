@@ -1,0 +1,2 @@
+- Generate random mazes
+- Experiment with other [lightweight raycasting techniques](http://simulationcorner.net/index.php?page=comanche)
